@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+            <div class="text">
+  <h1>Build a Resume That Gets You Hired</h1>
+    <h4>Modern.Attractive.Professional</h4>
+    </div>
+    <div class="wrapper">
+
+    
+    <div class="container">
+
+        <h2>Your Details</h1>
+     <div class="inputs">
+    <input type="text" class="input-field" id="fullName" placeholder="Full Name" required>
+    <input type="email" class="input-field" id="email" placeholder="Email" required>
+    <input type="number" class="input-field" id="phone" placeholder="Phone" required>
+    <input type="text" class="input-field" id="location" placeholder="Location" required>
+    <input type="text" class="input-field" id="summary" placeholder="Professional Summary" required>
+    <input type="text" class="input-field" id="skills" placeholder="Skills (comma separated)" required>
+    <input type="text" class="input-field" id="education" placeholder="Education" required>
+    <input type="text" class="input-field" id="experience" placeholder="Experience" required>
+
+    <button class="generate-btn">Generate Resume</button>
+</div>
+
+    </div>
+
+
+
+     <div class="preview-card">
+            <h2 id="previewName">Your Name</h2>
+            <div class="contact-info" id="contactInfo">
+                Email | Phone | Location
+            </div>
+
+            <div class="section">
+                <div class="section-title">Summary</div>
+                <div class="section-content" id="previewSummary">
+                    Your professional summary will appear here
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Skills</div>
+                <ul class="skills-list" id="previewSkills">
+                    <li>Add your skills</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Education</div>
+                <div id="previewEducation" class="section-content">
+                    <div class="education-item">
+                        <h4>Your Education</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Experience</div>
+                <div id="previewExperience" class="section-content">
+                    <div class="experience-item">
+
+                        <h4>Your Experience</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    </main>
+
+  
+  <script src="app.js"></script>
+   
+</body>
+</html>
